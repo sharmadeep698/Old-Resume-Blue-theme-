@@ -188,7 +188,7 @@ div p{
 	left: 10px;
 	top: 20%;
 	text-align: left;
-	color: red;
+	color: yellow;
 	padding: 10px;
 }
 .Skill-row  p{
@@ -197,4 +197,6 @@ div p{
 	left: 10px;
 	line-height: 2;
 }
+#Skill-paragraph 
+
 }
