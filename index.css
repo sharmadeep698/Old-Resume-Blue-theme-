@@ -166,14 +166,71 @@ div p{
 .Move div p{
 		margin-left: 20px;
 }
+.other-skills{
+	margin-top: 10%;
+}
+/*from footer*/
+/* Footer */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
+#footer {
+    background: black;
+}
+
+
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .2s all ease;
+	-moz-transition: .2s all ease;
+	transition: .2s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+
+
+
+
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+}
+
 /*for phone % i pad*/
 @media (max-width:1125px){
 .nav a{
 	position: relative;
 	margin-left: 2%;
 	color: #38acae; 
+	line-height: 2;
 	/*color for A and header*/
 	padding: 5px;
+	margin-bottom: 3px;
 	width: 100%;
 	transition: color 0.3s;
 	z-index: 1;
@@ -206,7 +263,7 @@ div p{
 	left: 10px;
 	top: 20%;
 	text-align: left;
-	color: yellow;
+	color: #38acae;
 	padding: 10px;
 }
 .Skill-row  p{
