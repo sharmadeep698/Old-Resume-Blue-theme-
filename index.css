@@ -149,8 +149,52 @@ div p{
 		margin-left: 20px;
 }
 /*for phone % i pad*/
-@media (max-width: 1125px){
-h2{
+@media (max-width:1125px){
+.nav a{
+	position: relative;
+	margin-left: 2%;
+	color: #38acae; 
+	/*color for A and header*/
+	padding: 5px;
+	width: 100%;
+	transition: color 0.3s;
+	z-index: 1;
+	
+}
+.nav{
+	position: fixed;
+	z-index: 1;
+	height: 30px;
+	background-color: #e8ead3;
+	color: white;
+	width: 100%;
+	margin-left: 0;
+	right: 2px;
+	top:0px;
+
+}
+#body i {
+	position: relative;
+	right: 17%;
+}
+.Skill-row img{
+	float: left;
+	margin: 10px auto;
+	margin-left: 10px;
+}
+
+.Skill-row h2{
+	position: relative;
+	left: 10px;
+	top: 20%;
+	text-align: left;
 	color: red;
+	padding: 10px;
+}
+.Skill-row  p{
+	position: relative;
+	top: 13%;
+	left: 10px;
+	line-height: 2;
 }
 }
