@@ -6,6 +6,7 @@
 	font-family: 'Lora', serif;
 	/*For Paragraphs*/
 	transition: 0.5s;
+			
 
 }
 .Header{
@@ -25,18 +26,24 @@ ul{
 	position: fixed;
 	z-index: 1;
 	height: 5%;
-	background-color: rgba(	93,	128	,95,0.5);
+	background-color: #e8ead3;
 	color: white;
 	width: 100%;
 	margin-left: 0;
 	right: 2px;
 	top:0px;
+
 }
 .nav a{
 	position: relative;
-	color: white;
+	margin-left: 2%;
+	color: #38acae; 
+	/*color for A and header*/
+	padding: 10px;
+	width: 100%;
 	transition: color 0.3s;
 	z-index: 2;
+	
 }
 .nav a:hover{
 	color: black;
@@ -64,12 +71,14 @@ ul{
 }
 /*Ecprence*/
 #Experence{
-	background-color: #e8ead3;
+	background-color: #e8ead3
+	 /*#e8ead3;*/
 	
 }
-.Tin{
-	padding: 10%;
-	margin:150px auto;
+.tin{
+position: relative;
+top: 10px;
+padding: 12px;
 }
 .React{
 	position: relative;
@@ -107,15 +116,22 @@ ul{
 .trail{
 	background-color: #e8ead3;
 
+	/*color for A and header*/	
+
+}
+h2{
+	color: #38acae; 
+	/*color for A and header*/
 }
 .Move{
 		position:relative;
 		right: 16px;
-	
 }
+
 .Move h2{
 	text-align: left;
 	margin-left:20px;
+
 }
 /*Despcription for Skilss*/
 .lead{
@@ -131,4 +147,10 @@ div p{
 }
 .Move div p{
 		margin-left: 20px;
+}
+/*for phone % i pad*/
+@media (max-width: 1125px){
+h2{
+	color: red;
+}
 }
