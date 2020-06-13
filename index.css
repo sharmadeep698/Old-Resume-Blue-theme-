@@ -138,7 +138,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ead3', end
 
 }
 h2{
-	color: #38acae; 
+	color: black; 
 	/*color for A and header*/
 }
 .Move{
@@ -207,7 +207,12 @@ div p{
 #footer ul.social li a:hover{
 	color:#eeeeee;
 }
-
+.Skill-row img:hover{
+	transform: scale(1.2);
+}
+.use{
+	margin-left: 2%;
+}
 
 
 
@@ -227,7 +232,7 @@ div p{
 .nav a{
 	position: relative;
 	margin-left: 2%;
-	color: red; 
+	color: white; 
 	line-height: 2;
 	/*color for A and header*/
 	padding-bottom: 10%;
@@ -273,7 +278,7 @@ div p{
 	line-height: 2;
 	top: 25%;
 	text-align: left;
-	color: #38acae;
+	color: black;
 	padding: 10px;
 }
 .Skill-row  p{
