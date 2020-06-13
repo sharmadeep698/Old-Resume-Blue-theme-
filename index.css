@@ -212,24 +212,25 @@ div p{
 
 
 
-@media (max-width:767px){
-	#footer h5 {
-    padding-left: 0;
-    border-left: transparent;
-    padding-bottom: 0px;
-    margin-bottom: 10px;
-}
-}
+
 
 /*for phone % i pad*/
 @media (max-width:1125px){
+	#footer {
+		padding: 10%;
+	}
+	#footer li {
+		position: relative;
+		bottom: 5%;
+		margin: 5%;
+	}
 .nav a{
 	position: relative;
 	margin-left: 2%;
-	color: #38acae; 
+	color: red; 
 	line-height: 2;
 	/*color for A and header*/
-	padding: 5px;
+	padding-bottom: 10%;
 	margin-bottom: 3px;
 	width: 100%;
 	transition: color 0.3s;
@@ -240,6 +241,7 @@ div p{
 	position: fixed;
 	z-index: 1;
 	height: 30px;
+	padding: 5%;
 	background-color: #e8ead3;
 	color: white;
 	width: 100%;
@@ -248,11 +250,18 @@ div p{
 	top:0px;
 
 }
+#Experence{
+	padding: 20%;
+}
+#body{
+	padding: 10%;
+}
 #body i {
 	position: relative;
-	right: 17%;
+	right: 20%;
 }
 .Skill-row img{
+	padding: 10%;
 	float: left;
 	margin: 10px auto;
 	margin-left: 10px;
@@ -261,17 +270,18 @@ div p{
 .Skill-row h2{
 	position: relative;
 	left: 10px;
-	top: 20%;
+	line-height: 2;
+	top: 25%;
 	text-align: left;
 	color: #38acae;
 	padding: 10px;
 }
 .Skill-row  p{
 	position: relative;
-	top: 13%;
+	top: 15%;
 	left: 10px;
 	line-height: 2;
 }
-#Skill-paragraph 
-
+#Skill-paragraph {
+	padding: 50%;
 }
