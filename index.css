@@ -15,16 +15,7 @@ html {
     height: 100%
 }
 
-#particles-js canvas {
-    display: block;
-    vertical-align: bottom;
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-    opacity: 1;
-    -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
-    transition: opacity .8s ease, transform 1.4s ease
-}
+	 
 
 #particles-js {
     width: 100%;
@@ -51,13 +42,7 @@ ul{
 	position: fixed;
 	z-index: 1;
 	height: 5%;
-	background: -moz-linear-gradient(185deg, rgba(253,255,230,1) 0%, rgba(253,255,230,1) 1%, rgba(232,234,211,1) 6%, rgba(232,234,211,1) 100%); /* ff3.6+ */
-background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(232,234,211,1)), color-stop(94%, rgba(232,234,211,1)), color-stop(99%, rgba(253,255,230,1)), color-stop(100%, rgba(253,255,230,1))); /* safari4+,chrome */
-background: -webkit-linear-gradient(185deg, rgba(253,255,230,1) 0%, rgba(253,255,230,1) 1%, rgba(232,234,211,1) 6%, rgba(232,234,211,1) 100%); /* safari5.1+,chrome10+ */
-background: -o-linear-gradient(185deg, rgba(253,255,230,1) 0%, rgba(253,255,230,1) 1%, rgba(232,234,211,1) 6%, rgba(232,234,211,1) 100%); /* opera 11.10+ */
-background: -ms-linear-gradient(185deg, rgba(253,255,230,1) 0%, rgba(253,255,230,1) 1%, rgba(232,234,211,1) 6%, rgba(232,234,211,1) 100%); /* ie10+ */
-background: linear-gradient(265deg, rgba(253,255,230,1) 0%, rgba(253,255,230,1) 1%, rgba(232,234,211,1) 6%, rgba(232,234,211,1) 100%); /* w3c */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ead3', endColorstr='#FDFFE6',GradientType=1 ); /* ie6-9 */
+background-color: #f6acc8;
 	color: white;
 	width: 100%;
 	margin-left: 0;
@@ -102,7 +87,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8ead3', end
 }
 /*Ecprence*/
 #Experence{
-	background: #f6acc8;
+	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 88%, 0% 100%);
+	padding: 20px;
+	background: rgba(246,172,200,0.7);
 	 /*#e8ead3;*/
 	
 }
@@ -232,7 +219,9 @@ div p{
 	position: absolute top-left;
 	width: 100%;
 }
-
+.carousel-inner img{
+	margin: 8px;
+}
 
 
 
@@ -246,32 +235,7 @@ div p{
 		bottom: 5%;
 		margin: 5%;
 	}
-.nav a{
-	position: relative;
-	margin-left: 2%;
-	color: white; 
-	line-height: 2;
-	/*color for A and header*/
-	padding-bottom: 10%;
-	margin-bottom: 3px;
-	width: 100%;
-	transition: color 0.3s;
-	z-index: 1;
-	
-}
-.nav{
-	position: fixed;
-	z-index: 1;
-	height: 30px;
-	padding: 5%;
-	background-color: #e8ead3;
-	color: white;
-	width: 100%;
-	margin-left: 0;
-	right: 2px;
-	top:0px;
 
-}
 #Experence{
 	padding: 20%;
 }
@@ -283,7 +247,7 @@ div p{
 	right: 20%;
 }
 .Skill-row img{
-	padding: 10%;
+	padding: 5%;
 	float: left;
 	margin: 10px auto;
 	margin-left: 10px;
@@ -306,4 +270,5 @@ div p{
 }
 #Skill-paragraph {
 	padding: 50%;
+	margin-left: 10px;
 }
