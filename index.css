@@ -15,7 +15,15 @@ html {
     height: 100%
 }
 
-
+.AppleMAc{
+	position: relative;
+	right: 3%;
+}
+.load{
+	position: relative;
+	z-index: -2;
+	left: 100%;
+}
 
 #particles-js {
     width: 100%;
