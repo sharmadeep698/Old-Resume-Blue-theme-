@@ -15,7 +15,7 @@ html {
     height: 100%
 }
 
-	 
+
 
 #particles-js {
     width: 100%;
@@ -25,6 +25,7 @@ html {
     top: 0;
     left: 0
 }
+
 .Header{
 	font-family: 'Bree Serif', serif; 
 }
@@ -38,33 +39,7 @@ header a{
 ul{
 	list-style-type: none;
 }
-.nav{
-	position: fixed;
-	z-index: 1;
-	height: 5%;
-background-color: #f6acc8;
-	color: white;
-	width: 100%;
-	margin-left: 0;
-	right: 2px;
-	top:0px;
 
-}
-.nav a{
-	position: relative;
-	margin-left: 2%;
-	color: #38acae; 
-	/*color for A and header*/
-	padding: 10px;
-	width: 100%;
-	transition: color 0.3s;
-	z-index: 2;
-	
-}
-.nav a:hover{
-	color: black;
-	text-decoration: underline;
-}
 /*Gilf*/
 #Char{
 	position: relative;
@@ -89,7 +64,7 @@ background-color: #f6acc8;
 #Experence{
 	-webkit-clip-path: polygon(0 0, 100% 0%, 100% 88%, 0% 100%);
 	padding: 20px;
-	background: rgba(246,172,200,0.7);
+	background: rgba(21,162,250,0.5);
 	 /*#e8ead3;*/
 	
 }
@@ -132,7 +107,8 @@ padding: 12px;
 	margin-left: 2px;
 }
 .trail{
-background: #f6acc8
+/*background: #f6acc8*/
+background: rgba(21,162,250,0.5);
 
 	/*color for A and header*/	
 
@@ -227,6 +203,14 @@ div p{
 
 /*for phone % i pad*/
 @media (max-width:1125px){
+	#Pskill{
+	position: relative;
+	top: 100%;
+}
+	p{
+	font-size: 150%;
+	line-height: 2;
+}	
 	#footer {
 		padding: 10%;
 	}
