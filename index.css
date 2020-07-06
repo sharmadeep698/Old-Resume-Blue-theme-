@@ -338,7 +338,12 @@ div p{
 	p{
 	font-size: 150%;
 	line-height: 2;
+	font-weight: bolder;
 }	
+.smartReact{
+	position: relative;
+	top: 10%;
+}
 	#footer {
 		padding: 10%;
 	}
