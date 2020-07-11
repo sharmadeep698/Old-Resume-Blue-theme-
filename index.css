@@ -193,7 +193,7 @@ div p{
   border-radius: 15px;
   margin-bottom: 5px;
   font-size: 18px;
-  color: black;
+  color: white;
   font-weight: bold;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
 }
@@ -328,6 +328,13 @@ div p{
          border-radius: 50%;
        }
        /*about me Ends here */
+       /*for fading only */
+       .fade {
+  margin: 50px;
+  padding: 50px;
+  
+  opacity: 1;
+}
 
 /*for phone % i pad*/
 @media (max-width:1125px){
