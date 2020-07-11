@@ -189,10 +189,10 @@ div p{
 .bar{
 	text-align: left;
   background-color: #EEE;
-  padding: 2px;
+  padding: 1px;
   border-radius: 15px;
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   font-weight: bold;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
@@ -202,7 +202,7 @@ div p{
   display: inline-block;
   padding: 5px 0 5px 10px;
   border-radius: inherit;
-  animation: load 2s 0s;
+  animation: load 10s 15s;
   -webkit-animation: load 2s 0s;
   -moz-animation: load 2s 0s;
   -o-animation: load 2s 0s;
