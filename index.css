@@ -330,9 +330,9 @@ div p{
        /*about me Ends here */
        /*for fading only */
        .fade {
-  margin: 50px;
-  padding: 50px;
-  
+ width: 100%;
+  padding: 50px 0 ;
+ 
   opacity: 1;
 }
 
