@@ -141,9 +141,21 @@ h2{
 }
 .Mac{
 	position: relative;
-	top: 100%;
+	bottom: 40%;
+	width: 100%;
 }
-
+.green_icon div{
+	position: relative;
+	display: none;
+}
+.About{
+	position: relative;
+	top: 5%;
+}
+.AboutImg{
+	position: relative;
+	top: -20%;
+}
 div p{
 
 	text-align: left;
@@ -210,9 +222,9 @@ div p{
 
 
 .bar::before{
-  background-color: rgba(21,162,250,0.5);
+  background-color: rgba(255, 95, 64,0.8)
+  /*rgba(21,162,250,0.5);*/
 }
-
 .bar.learning::before{
   width: calc(92% - 10px);
 }
