@@ -103,9 +103,22 @@
         </div>
 
       </div>
-
+<script>
+  $(function () {
+  count = 0;
+  wordsArray = ["Developer", "Designer","Deep"];
+  setInterval(function () {
+    count++;
+    $("#word").fadeOut(500, function () {
+      $(this).text(wordsArray[count % wordsArray.length]).fadeIn(500);
+    });
+  }, 2000);
+});
+</script>
     </div>
      <div class="Mac ">
+     <h1>Hello</h1>
+  <h2 class="Change">I am  <span id="word">Deep</span>, </h2>
      <p>Result-oriented Developer with experience in developing 
           and  testing Web applications.<br> Designed over 16 applications 
           from scratch. Investigated new technologies to produce 

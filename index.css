@@ -160,6 +160,9 @@ h2{
 	position: relative;
 	top: -20%;
 }
+#word{
+	 color:rgba(255, 95, 64,0.8)
+}
 div p{
 
 	text-align: left;
